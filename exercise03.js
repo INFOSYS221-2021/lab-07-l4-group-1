@@ -1,6 +1,5 @@
 // Example object and print statements
 
-// Create your JavaScript objects
 let person = {
    firstName: "Snow",
    lastName: "White",
@@ -31,4 +30,54 @@ let person = {
 console.log("First name of person: " + person.firstName);
 for (i in person.phoneNumbers) {
     console.log("Phone number: " + person.phoneNumbers[i].number);
+}
+
+
+
+// Create your JavaScript objects
+
+let person = {
+   firstName: "Snow",
+   lastName: "White",
+   isEnrolled: true,
+   studentId: 123456789,
+   studentUsername: "abcd123",
+   studyDetails: {
+      courses: infosys221, busan200, econ201,
+      major(s): Information Systems,
+      degree(s): Bachelor of Buisiness,
+   },
+   Courses:[
+      {
+         courseTitle:    ,
+         courseCategory:   ,
+         categoryNum:    ,
+         CourseDescription: ,
+         whenOffered: , 
+         courseAssignments: {
+            assignmentName: ,
+            assignmentGrade: , 
+          },
+      },
+      {
+         courseTitle:    ,
+         courseCategory:   ,
+         categoryNum:    ,
+         CourseDescription: ,
+         whenOffered: , 
+      },
+      {
+         courseTitle:    ,
+         courseCategory:   ,
+         categoryNum:    ,
+         CourseDescription: ,
+         whenOffered: , 
+      }
+   ],
+} 
+
+// print different properties of your objects
+console.log("First name of student: " + person.firstName);
+for (i in person.course) {
+    console.log("Courses: " + person.course[i].number);
 }
