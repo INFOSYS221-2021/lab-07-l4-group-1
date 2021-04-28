@@ -1,2 +1,4 @@
 # Lab-07
-Write your names here.
+Jack McGrath
+Olivia Joe West
+Amos Lou
